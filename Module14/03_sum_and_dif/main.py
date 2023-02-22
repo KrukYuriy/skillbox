@@ -6,6 +6,7 @@ def summ(N):
         N = N // 10
     print('Сумма чисел:', summ)
     return summ
+
 def amount(N):
     count = 0
     while N > 0:
@@ -13,6 +14,7 @@ def amount(N):
         N //= 10
     print('Количество цифр в числе:', count)
     return count
+
 def difference(summ, count):
     difference = summ - count
     print('Разность суммы и количества цифр:', difference)
