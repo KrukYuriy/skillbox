@@ -1,5 +1,6 @@
 num_1 = float(input('Введите первое число: '))
 num_2 = float(input('Введите второе число: '))
+
 def revers_number(number):
   x = int(number)
   n = 0
