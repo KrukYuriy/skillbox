@@ -4,7 +4,8 @@ def min_divisor(num):
     i = 3
     while num%i != 0 and i*i <= num:
         i+= 2
-    if i*i <= num: return i
+    if i*i <= num:
+        return i
     return num
 
 number = int(input('Введите число: '))
